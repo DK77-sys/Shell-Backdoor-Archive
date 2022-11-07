@@ -1,0 +1,16 @@
+[
+    {
+        "title" : "Cpanel Cracker",
+        "description" : "Crack Cpanel Using Reset Password Method",
+        "image_url" : "http://localhost:3000/img/crackcp.png",
+        "raw_url" : "https://x-pedia.my.id/shell-helper/raw/crackcp.txt",
+        "download_url" : "https://x-pedia.my.id/shell-helper/download/crackcp.txt"
+    },
+    {
+        "title" : "Bypass 403",
+        "description" : "Symlink Bypass 403",
+        "image_url" : "http://localhost:3000/img/bypass403.png",
+        "raw_url" : "https://x-pedia.my.id/shell-helper/raw/bypass403.txt",
+        "download_url" : "https://x-pedia.my.id/shell-helper/download/bypass403.txt"
+    }
+]

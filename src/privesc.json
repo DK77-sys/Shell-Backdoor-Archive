@@ -1,0 +1,69 @@
+{
+    "data" : [
+        {
+            "title" : "PwnKit: Local Root",
+            "cve" : "CVE-2021-4034 ",
+            "image_url" : "https://shell.prinsh.com/Prinsley/marijuana.jpg",
+            "description" : "PoC for PwnKit: Local Privilege Escalation Vulnerability in polkit’s pkexec (CVE-2021-4034)",
+            "kernel" : "",
+            "version" : "Debian 10 & CentOS 7",
+            "compile": "gcc exploit.c -o exploit",
+            "usage": "./exploit'",
+            "raw_url" : "https://raw.githubusercontent.com/arthepsy/CVE-2021-4034/main/cve-2021-4034-poc.c"
+        },
+        {
+            "title" : "Dirty Pipe",
+            "image_url" : "https://shell.prinsh.com/Prinsley/marijuana.jpg",
+            "description" : "",
+            "kernel" : "5.8 < 5.16.11",
+            "version" : "Linux 8 Or Later",
+            "compile": "gcc exploit.c",
+            "usage": "./exploit.out SUID | Example /usr/bin/passwd",
+            "raw_url" : "https://www.exploit-db.com/raw/50808"
+        },
+        {
+            "title" : "Overlays Local Root",
+            "image_url" : "https://shell.prinsh.com/Prinsley/marijuana.jpg",
+            "description" : "-",
+            "kernel" : "3.13.0",
+            "version" : "Ubuntu (12.04, 14.04, 14.10, 15.04)",
+            "compile": "gcc exploit.c -o exploit",
+            "usage": "./exploit",
+            "raw_url" : "https://www.exploit-db.com/raw/37292"
+        },
+        {
+            "title" : "Ebpf Local Root",
+            "cve" : "CVE-2021-3490",
+            "image_url" : "https://shell.prinsh.com/Prinsley/marijuana.jpg",
+            "description" : "",
+            "kernel" : "5.8.0.25-26 to 5.8.0.52.58 | 5.11.0-16.17 ",
+            "version" : "Ubuntu (20.10, 21.04)",
+            "compile": "make | make groovy (Groovy Gorilla) | make hirsute (Hirsute Hippo)",
+            "usage": "./exploit.bin",
+            "raw_url" : "https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490"
+        },
+        {
+            "title" : "",
+            "cve" : "CVE-2022-0995",
+            "image_url" : "https://shell.prinsh.com/Prinsley/marijuana.jpg",
+            "description" : "",
+            "kernel" : "5.13.0-37",
+            "version" : "Ubuntu (21.10)",
+            "compile": "make",
+            "usage": "./exploit",
+            "raw_url" : "https://github.com/Bonfee/CVE-2022-0995"
+        },        
+        {
+            "title" : "LPE PoC",
+            "cve" : "CVE-2022-34918 ",
+            "image_url" : "https://shell.prinsh.com/Prinsley/marijuana.jpg",
+            "description" : "LPE exploit for CVE-2022-34918. This exploit has been written for the kernel Linux ubuntu 5.15.0-39-generic You can find the associated write-up on our",
+            "kernel" : "5.15.0-39-generic",
+            "version" : "Ubuntu",
+            "compile": "get_root should be in the current folder | get_root poc",
+            "usage": "./poc | ./poc 'iamroot'",
+            "raw_url" : "https://github.com/randorisec/CVE-2022-34918-LPE-Poc"
+        }
+
+    ]
+}
